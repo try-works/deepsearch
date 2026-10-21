@@ -1,0 +1,18 @@
+/* Geist and Geist Mono, self-hosted latin subsets (variable, weight 100–900).
+   The design tokens name these families; without the files the app silently fell
+   back to a system font, which is what made every screen look off. */
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/geist-mono-400.woff2") format("woff2");
+}

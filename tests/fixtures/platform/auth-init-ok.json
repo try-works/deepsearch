@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "data": {
+    "biz_code": 0,
+    "biz_data": {
+      "authorize_url": "https://platform.deepseek.com/dsh/authorize?authorize_id=klLOOHvErbpGc1ug7Kbuje8JaVN5HamfyVi92S0Idn0",
+      "authorize_id": "klLOOHvErbpGc1ug7Kbuje8JaVN5HamfyVi92S0Idn0",
+      "expires_in": 600
+    }
+  }
+}

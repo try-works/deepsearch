@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "deepsearch-oauth-spike",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-18",
+  "dev": { "port": 8787 },
+  "vars": {
+    "PLATFORM_ORIGIN": "https://platform.deepseek.com",
+    "CALLBACK_ORIGIN": "http://localhost:8787",
+    "RELAY_REDIRECT_URI": "http://127.0.0.1:18765/oauth/callback",
+    "CLIENT_VERSION": "0.1.0"
+  }
+}

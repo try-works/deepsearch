@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "rerank_score": 2.4,
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs",
+      "url": "https://api-docs.deepseek.com/news/news250120",
+      "snippet": "DeepSeek-R1 is trained with large-scale reinforcement learning for multi-step reasoning.",
+      "summary": "The release note describes the training method, the distilled checkpoints, and the benchmark results that shipped with R1.",
+      "content": "",
+      "site_name": "DeepSeek API Docs",
+      "site_icon": "https://api-docs.deepseek.com/favicon.ico",
+      "date": "2025-01-20T00:00:00+00:00",
+      "authority": 3
+    },
+    {
+      "rerank_score": 1.8,
+      "title": "What is reinforcement learning from verifiable rewards?",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "snippet": "A survey of RLVR training and why rule-based reward shaping produces reasoning traces.",
+      "summary": "The paper compares reward models with rule-based verifiers and shows where the latter generalises.",
+      "content": "",
+      "site_name": "arXiv",
+      "site_icon": null,
+      "date": null,
+      "authority": 4
+    },
+    {
+      "rerank_score": 0.4,
+      "title": "An undated forum thread about local inference",
+      "url": "https://example.com/thread",
+      "snippet": "Practitioners compare quantised checkpoints on consumer hardware.",
+      "summary": "",
+      "content": "",
+      "site_name": null,
+      "site_icon": null,
+      "date": null,
+      "authority": -1
+    }
+  ]
+}

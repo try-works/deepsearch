@@ -1,0 +1,23 @@
+DeepSearch
+Copyright 2026 DeepSearch contributors
+
+This product is licensed under the Apache License, Version 2.0. See LICENSE.
+
+Third-party material distributed with this product
+---------------------------------------------------
+
+Geist and Geist Mono
+  Copyright 2023 Vercel, licensed under the SIL Open Font License, Version 1.1.
+  Full text: licenses/geist-OFL.txt
+  Files: public/fonts/geist-400.woff2, public/fonts/geist-mono-400.woff2
+  Modified?: self-hosted, unmodified binary files.
+
+All other dependencies are declared in package.json and installed rather than
+vendored, so their licences travel with their own packages.
+Trademarks
+----------
+
+DeepSearch is an independent project and is not affiliated with, endorsed by, or
+sponsored by DeepSeek. "DeepSeek" and the DeepSeek marks are the property of their
+owner and are used here only to identify the API this client calls. No trademark
+right or licence is granted by this project.

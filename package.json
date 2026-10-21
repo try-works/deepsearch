@@ -1,0 +1,43 @@
+{
+  "name": "deepsearch",
+  "version": "0.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "packageManager": "pnpm@11.28.5",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit tests/baseline",
+    "test:contract": "vitest run tests/contract",
+    "test:e2e": "playwright test",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.170.45",
+    "@tanstack/react-start": "1.169.3",
+    "effect": "4.0.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261018.1",
+    "@effect/platform-node": "4.0.5",
+    "@effect/vitest": "4.0.5",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "alchemy": "2.0.0-beta.83",
+    "typescript": "7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "5.0.5"
+  }
+}

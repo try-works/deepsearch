@@ -1,0 +1,41 @@
+# recursive-mode scratch
+/.recursive/config/recursive-router-discovered.json
+# appended on every guard decision; a runtime log, not source
+/.recursive/config/guard-decisions.jsonl
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+.output/
+.nitro/
+.tanstack/
+.vite/
+
+# cloudflare / alchemy local state
+.wrangler/
+.alchemy/
+.dev.vars
+*.dev.vars
+
+# linked worktrees
+.worktrees/
+
+# test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+# recursive-mode run bookkeeping: local evidence for the agent, and it records
+# absolute workspace paths and the deployment stage name. Not part of the product.
+/.recursive/
+# local environment files
+.env
+.env.local
+.env.*.local
+!.env.example

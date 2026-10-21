@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - workerd
+  - esbuild
+dangerouslyAllowAllBuilds: true

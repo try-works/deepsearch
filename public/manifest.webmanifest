@@ -1,0 +1,13 @@
+{
+  "name": "DeepSearch",
+  "short_name": "DeepSearch",
+  "description": "Ranked web results with source metadata, straight from the DeepSeek Search API.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0562EF",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
